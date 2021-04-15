@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Schedule</title>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="code.js"></script>
+    <link href="schedule.css" rel="stylesheet">
+</head>
+<body>
+<h1>My Schedule</h1>
+<br>
+<h2>Choose a day to view the schedule</h2>
+
+
+
+        <input type="radio" name="day" id="sunday" checked="checked">
+        <label for="sunday">Sunday</label>
+        <br>
+        <input type="radio" name="day" id="monday">
+        <label for="monday">Monday</label>
+        <br>
+        <input type="radio" name="day" id="tuesday">
+        <label for="tuesday">Tuesday</label>
+        <br>
+        <input type="radio" name="day" id="wednesday">
+        <label for="wednesday">Wednesday</label>
+        <br>
+        <input type="radio" name="day" id="thursday">
+        <label for="thursday">Thursday</label>
+        <br>
+        <input type="radio" name="day" id="friday">
+        <label for="friday">Friday</label>
+        <br>
+        <input type="radio" name="day" id="saturday">
+        <label for="saturday">Saturday</label>
+        <br>
+        <br>
+        <button id="submit">Select Day</button>
+
+<br>
+<br>
+
+    <table>
+        <tr>
+            <th>Event(s)</th>
+            <th>Time</th>
+        </tr>
+        <tr id="firstEvent">
+            <td><p id="firstRow1"></p></td>
+            <td><p id="firstRow2"></p></td>
+        </tr>
+        <tr id="secondEvent">
+            <td><p id="secondRow1"></p></td>
+            <td><p id="secondRow2"></p></td>
+        </tr>
+        <tr id="thirdEvent">
+            <td><p id="thirdRow1"></p></td>
+            <td><p id="thirdRow2"></p></td>
+        </tr>
+
+    </table>
+
+
+</body>
+</html>
